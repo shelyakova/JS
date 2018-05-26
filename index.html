@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	   <meta charset=“utf-8”>
+		<title>Моя первая веб-страница</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var years = prompt('Сколько вам лет?', 100);
+			if(years>=18){
+				var question = confirm('Готови ли вы посетить сайт?');
+				if(question == true){
+					alert('Ваш возвраст ' + years );
+				}
+				else if(question == false){
+					alert('Досвидания');
+				}
+			}
+			else {
+				alert('Досвидания');
+			}
+		</script>
+	</body>
+</html>
